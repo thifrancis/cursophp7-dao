@@ -18,7 +18,7 @@ class Sql extends PDO {
 				
 				$stantment->bindParam($key,$value);
 
-				$this->setParam($key,$value);
+				$this->setParam($stantment,$key,$value);
 
 
 			}
